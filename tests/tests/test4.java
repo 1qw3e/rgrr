@@ -12,7 +12,7 @@ public class test4 {
 	@Test
 	public void testTax()
 	{
-		double res= tax.calcTax(35000, 0, 2, 13, false );
+		double res= tax.calcTax(35000, 0, 1, 13, false );
 		double toch=4316;
 		assertTrue(toch == res); 
 		}
