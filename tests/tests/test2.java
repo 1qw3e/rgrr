@@ -13,7 +13,7 @@ public class test2 {
 	public void testTax()
 	 {
 		double res= tax.deduction(500000, true);
-		double toch=300000601;
+		double toch=300000600;
 		assertTrue(res == toch);
 	 }
 
